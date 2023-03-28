@@ -1,7 +1,7 @@
 {
   "name": "slim-select",
   "description": "Slim advanced select dropdown",
-  "version": "ck-2",
+  "version": "ck-3",
   "author": "Brian Voelker <brian@webiswhatido.com> (http://webiswhatido.com)",
   "homepage": "https://slimselectjs.com",
   "license": "MIT",
@@ -16,16 +16,6 @@
   "types": "dist/index.d.ts",
   "style": "dist/slimselect.css",
   "sass": "src/slim-select/slimselect.scss",
-  "exports": {
-    ".": {
-      "require": "./dist/slimselect.umd.js",
-      "import": "./dist/slimselect.es.js"
-    },
-    "./slimselect.css": {
-      "require": "./dist/slimselect.css",
-      "import": "./dist/slimselect.css"
-    }
-  },
   "workspaces": [
     "src/vue"
   ],
