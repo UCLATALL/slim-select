@@ -1,12 +1,15 @@
 {
-  "name": "slim-select",
+  "name": "@uclatall/slim-select",
   "description": "Slim advanced select dropdown",
-  "version": "ck-3",
+  "version": "1.0.0",
   "author": "Brian Voelker <brian@webiswhatido.com> (http://webiswhatido.com)",
   "homepage": "https://slimselectjs.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brianvoe/slim-select/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "type": "module",
   "main": "dist/slimselect.umd.js",
